@@ -1,8 +1,20 @@
+# MILESTONE 1: HTTP Request and Server Response
 
-# Hello, this is part a and b on getting the parameters.
+# Project Description:
+# This project is supposed to make HTTP requests to the Open-Meteo API to retrieve weather data for a specific city.
+# it demonstrates how to send requests, receive server responses, and convert extracted data into a Python object
 
-import requests
+# Step 1: The GeoCoding Request
 
-GEOCODE_URL = "https://geocoding-api.open-meteo.com/v1/search"
-FORECAST_URL = "https://api.open-meteo.com/v1/forecast"
+# The program will send a HTTP request to the Open-Meteo Geocoding API using a city name and a country code. 
+# The response should contain location data, from which the program should extract, which are:
+# - City 
+# - Country
+# for parameters.
+# It needs to retrieve:
+# - Latitude
+# - Longtitude
+
+
+
 
