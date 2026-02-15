@@ -7,10 +7,9 @@ it demonstrates how to send requests, receive server responses, and convert extr
 # Step 1: The GeoCoding Request
 
 The program will send a HTTP request to the Open-Meteo Geocoding API using a city name and a country code. 
-The response should contain location data, from which the program should extract, which are:
+The response should contain location data, from which the program should extract parameters, which are:
  - City 
  - Country
-for parameters.
 # It needs to retrieve:
  - Latitude
  - Longtitude
