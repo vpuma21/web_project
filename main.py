@@ -15,10 +15,15 @@ response = requests.get(GEOCODE_URL, params=params) # this will send the request
 
 data = response.json() # this converts it to JSON
 
+name = data["results"][0]["name"]
+country = data ["results"][0]["country"]
 latitude = data["results"][0]["latitude"] # extracting latitude
 longitude = data["results"][0]["longitude"]# extracting longitude
 
-print(data)
+print("city", name)
+print("country", country)
+print("latitide", latitude)
+print("longitude", longitude)
 
 # STEP 2 FORECAST SECTION 
 
