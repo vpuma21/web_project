@@ -3,20 +3,27 @@ import requests
 GEOCODE_URL = "https://geocoding-api.open-meteo.com/v1/search" # this will be step 1
 FORECAST_URL = "https://api.open-meteo.com/v1/forecast" # ill work on step 2 monnday and tuesday
 
-params = { # These are parameters for the request of GEOCODE
-    "name": "Chicago",
+# STEP 1: GEOCODE SECTION
+
+params = { # These are parameters for the request for the GEOCODE site
+    "name": "chicago",
     "country": "US",
     "count": 1
 } 
 
-response = requests.get(GEOCODE_URL, params=params) #
-data = response.json()
+response = requests.get(GEOCODE_URL, params=params) # this will send the request
 
-latitude = data["results"][0]["latitude"]
-longitude = data["results"][0]["longitude"]
+data = response.json() # this converts it to JSON
 
-print("latitude", latitude)
-print("longitude", longitude)      
+latitude = data["results"][0]["latitude"] # extracting latitude
+longitude = data["results"][0]["longitude"]# extracting longitude
+
+print(data)
+
+# STEP 2 FORECAST SECTION 
+
+
+
 
 
 
