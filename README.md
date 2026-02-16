@@ -10,7 +10,6 @@ The program will send a request to the Open-Meteo Geocoding API using a city nam
 The response should contain location data, from which the program should extract parameters, which are:
  - City 
  - Country
-### It needs to retrieve:
  - Latitude
  - Longtitude
 
