@@ -16,11 +16,13 @@ The response should contain location data, from which the program should extract
 
 ### Step 2: The Forecast Request
 
-In this section, It needs to retrieve the latitude and longitude from step 1. Uing the retrieved latitude and longitude, the program will send a second request to Open-Meteo Forecast API. This will then return the current weather information, in which includes:
+In this section, It needs to retrieve the latitude and longitude from step 1. Using the retrieved latitude and longitude, the program will send a second request to Open-Meteo Forecast API. This will then return the current weather information, in which includes:
 
 - Temperature
 - Windspeed
 - Elevation
 - Observation Time 
+
+### Step 3: 
 
 
