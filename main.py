@@ -25,7 +25,7 @@ print("country", country)
 print("latitide", latitude) # we need to extract this
 print("longitude", longitude)# and extract this
 
-# STEP 2 FORECAST SECTION 
+# STEP 2: FORECAST SECTION 
 
 forecast_param = { #retriving the latitude and longitude from previous step
     "latitude": latitude,
@@ -35,7 +35,7 @@ forecast_param = { #retriving the latitude and longitude from previous step
 
 response2 = requests.get(FORECAST_URL, params=forecast_param) # this will send second request
 
-weather_data = response2.json()
+weather_data = response2.json() # convert to JSON again for forecast
 
 temperature = weather_data["current_weather"]["temperature"] # these are supposed to be added 
 windspeed = weather_data["current_weather"]["windspeed"]
@@ -45,8 +45,8 @@ print("Temperature:", temperature)
 print("Windspeed:", windspeed)
 print("Observation time:", time)
 
-#STEP 3 (work on it on tuesday? or wednesday)
-
+# STEP 3: JSON -> Python
+ 
 
 
 
