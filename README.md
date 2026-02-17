@@ -22,5 +22,8 @@ In this section, It needs to retrieve the latitude and longitude from step 1. Us
 - Elevation
 - Observation Time 
 
-### Step 3: The JSON 
+### Step 3: Data Conversion (JSON to Python)
+
+In this section, It needs to take the JSON responses from the API of the previous steps in order to convert it into Python dictionary. The program will print out the data in order to show the successed with the retrives and processing the data.
+
 
