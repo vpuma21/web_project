@@ -28,14 +28,14 @@ In this section, It needs to take the JSON responses from the API of the previou
 
 ### THIS IS HOW IT"S SUPPOSED TO LOOK LIKE (Final result/look of project):
 
-{
-    "id": 1,
-    "city" : "Chicago",
-    "country": "US",
-    "latitude": 41.88,
-    "longitude" : -81.63,
-    "temperature_c" : 18.5
-    "windspeed_kmh" : 12.3
-    "observation_time": "2025-09-04T12:00:00Z",
-    "notes": null
-}
+- {
+   - "id": 1,
+   - "city" : "Chicago",
+   - "country": "US",
+   - "latitude": 41.88,
+   - "longitude" : -81.63,
+   - "temperature_c" : 18.5
+   - "windspeed_kmh" : 12.3
+   - "observation_time": "2025-09-04T12:00:00Z",
+   - "notes": null
+- }
