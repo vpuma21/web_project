@@ -57,4 +57,5 @@ result = { #the formatting on how it should be + python object
     "observation_time": time
 }
 
+print("Status", response.status_code) # this is the status code (an extra filler I wanted to add c:) should print that status is 200
 print(result) # the other print out were commented out bc those were just tests to see if it works.
