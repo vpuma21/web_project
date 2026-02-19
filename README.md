@@ -26,7 +26,7 @@ In this section, It needs to retrieve the latitude and longitude from step 1. Us
 
 In this section, It needs to take the JSON responses from the API of the previous steps in order to convert it into Python dictionary. The program will print out the data in order to show the successed with the retrives and processing the data.
 
-### THIS IS HOW IT"S SUPPOSED TO LOOK LIKE (Final result/look of project):
+### THIS IS HOW IT"S SUPPOSED TO LOOK LIKE (sample of how final result/look of project should look like):
 
 - {
    - "id": 1,
