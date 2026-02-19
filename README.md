@@ -40,4 +40,4 @@ In this section, It needs to take the JSON responses from the API of the previou
    - "notes": null
 - }
 
-I added the status 200 as an extra since I wanted to know if the status code will be 200 aas it will demonstrate it was a success in a way c:
+I added the status 200 as an extra since I wanted to know if the status code will be 200 was it will demonstrate it was a success in a way c:
