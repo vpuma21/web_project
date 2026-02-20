@@ -14,11 +14,12 @@ params = { # These are parameters for the request for the GEOCODE site
 response = requests.get(GEOCODE_URL, params=params) # this will send the request from geocode
 
 data = response.json() # this converts it to JSON
+location = data["results"][0] # data
 
-name = data["results"][0]["name"]
-country = data ["results"][0]["country"]
-latitude = data["results"][0]["latitude"] 
-longitude = data["results"][0]["longitude"]
+name = location["name"]
+country = location["country"]
+latitude = location["latitude"] 
+longitude = location["longitude"]
 
 # print("city", name)
 # print("country", country)
@@ -47,9 +48,9 @@ time = weather_data["current_weather"]["time"]
 
 # STEP 3: JSON -> Python
 
-result = { #the formatting on how it should be + python object
-    "city": data["results"][0]["name"],
-    "country": data["results"][0]["country"],
+result = { # the formatting on how it should be + python object
+    "city": name,
+    "country": country,
     "latitude": latitude,
     "longitude": longitude,
     "temperature_c": temperature,
