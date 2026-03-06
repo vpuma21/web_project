@@ -48,10 +48,10 @@ I added the status 200 as an extra since I wanted to know if the status code wil
 
 In this Milestone, Previous Milestone will be expanding it's API code by implementing a Flask Server and have routes for CRUD operations. The Flash server will be like the backend of the website, allowing the user to interact with the weather data system through the said routes. These routes will be handling create,read,update,and delete records. For now it should return strings/HTML responses.
 
-### Step 1: 
+### Step 1: Flask Server
 In this step, a Flask application is created to serve as the backend server. The server will act as the entry point of the application and handle incoming requests from the user. The Flask server will initialize the application and run it locally so routes can be accessed through the browser.
 
-### Step 2:
+### Step 2: CRUD Operations
 A new file called routes.py is created to define the application's routes. These routes represent the CRUD operations:
    - Create
    - Read
@@ -61,7 +61,7 @@ A new file called routes.py is created to define the application's routes. These
 Each route currently returns a simple string or HTML response since database functionality has not yet been implemented. These routes will later be expanded to interact with the database.
 
 
-### Step 3:
+### Step 3: Requirements
 The requirements.txt is updated in order to see all necessary dependencies needed for this project to run. Which includes:
    - Flask
    - Requests
