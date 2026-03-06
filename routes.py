@@ -2,7 +2,7 @@ def register_routes(app):
 
     @app.route("/")
     def home(): # this is the home screen
-        return "Weather Report Website"
+        return """<h1>Weather Report Website</h1>"""
     
     @app.route("/about") # an about section
     def about():
