@@ -60,7 +60,6 @@ A new file called routes.py is created to define the application's routes. These
 
 Each route currently returns a simple string or HTML response since database functionality has not yet been implemented. These routes will later be expanded to interact with the database.
 
-
 ### Step 3: Requirements
 The requirements.txt is updated in order to see all necessary dependencies needed for this project to run. Which includes:
    - Flask
